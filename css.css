@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    width: 100%;
+    background-image: url(img/pg_all.png);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    background-image: url(img/header.png);
+    height: 183px;
+    width: 962px;
+}
+.head_boutton{
+    margin: -11px;
+    position: relative;
+    top: 133px;
+    left: 110px;
+    opacity: 0;
+}
+.head_boutton:hover{
+    opacity: 1;
+}
+#all{
+    width: 962px;
+    height: 1154px;
+    background-color: white;
+}
+footer{
+    background-image: url(img/footer_bk.jpg);
+    height: 170px;
+    width: 962px;
+}
+#left_bar{
+    background-color: #e9eaec;
+    width: 210px;
+    margin: 4px;
+}
+h3{
+    background: linear-gradient(white, rgb(143, 143, 143));
+    padding-left: 10px;
+}
+#cars{
+    list-style: georgian inside url(img/fleche.png);
+    column-count: 2;
+    font-size: small;
+    
+}
+#list1{
+    height: 350px;
+    box-shadow: -1px -1px 4px gray ;
+}
+#cars li{
+    margin-bottom: 4px;
+}
+#news li::after{
+    content: '8-01-2011';
+    color: grey;
+    padding-left: 12px;
+}
+#news{
+    list-style: georgian inside url(img/carre.png);
+}
+#list2{
+    box-shadow: -1px -1px 4px grey ;
+    height: 212px;
+}
+#img{
+    box-shadow: -1px -1px 4px gray ;
+}
+.absolute{
+    margin-left: 17px;
+}
+#jaime{
+    height: 23px;
+    margin-left: 7px;
+    display: inline;
+    color: green;
+}
+.p{
+    font-size: small;
+    display: inline;
+}
+#p2{
+    margin-left: 310px;
+}
+#sp1{
+    font-style: italic;
+}
+main{
+    position: relative;
+    left: 222px;
+    bottom: 788px;
+    background-color: aqua;
+    width: 734px;
+    height: 783px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+}
+#main_main{
+    margin: 15px;
+    width: 603px;
+}
